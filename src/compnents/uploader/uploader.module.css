@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 469px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+}
+.title {
+    font-size: 18px;
+    line-height: 27px;
+}
+.description {
+    font-size: 10px;
+    color: #828282;
+}
+.uploader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.dropZone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    background-color: var(--drop-zone-background-color);
+    border: 1px dashed var(--drop-zone-border-color);
+    border-radius: 12px;
+    padding: 40px 0;
+}
+.dropZoneIllustration {
+    width: 115px;
+    height: auto;
+}
+.dropZoneMessage {
+    font-size: 12px;
+    line-height: 18px;
+    color: #BDBDBD;
+
+}
+.separator {
+    font-size: 12px;
+    line-height: 18px;
+    color: #BDBDBD;
+}
+.btnChooseFile {
+    width: 101px;
+    height: 31.98px;
+}
